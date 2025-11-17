@@ -1,5 +1,4 @@
 ## Dog API Request Pipeline
-
 This project is a small Python pipeline that makes a GET request to the Dog CEO API, parses the JSON response, logs every major step, loads configuration from a YAML file, and loads environment variables from a .env file. It also saves the full JSON response to dog.json and reads it back for verification. This structure mirrors how data engineers build lightweight API ingestion pipelines.
 
 -----------------------------
