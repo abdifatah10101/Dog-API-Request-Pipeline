@@ -1,6 +1,7 @@
 ## Dog API Request Pipeline
 
 This project is a small Python pipeline that makes a GET request to the Dog CEO API, parses the JSON response, logs every major step, loads configuration from a YAML file, and loads environment variables from a .env file. It also saves the full JSON response to dog.json and reads it back for verification. This structure mirrors how data engineers build lightweight API ingestion pipelines.
+
 -----------------------------
 ## Project Overview
 
@@ -18,6 +19,7 @@ The script performs:
 10. Handling all major operations with try/except and proper logging.
 
 This project practices real-world skills such as logging, config files, JSON handling, basic API calls, and error management.
+
 -----------------------------
 ## Features:
 
@@ -44,6 +46,7 @@ api_url: "https://dog.ceo/api/breeds/image/random"
 
 .env:
 API_KEY="12345TESTKEY"
+
 -----------------------------
 ## How It Works:
 
@@ -56,6 +59,7 @@ The script sets up logging using the Python logging module.
 5. JSON is parsed and the "message" field (dog image URL) is extracted.
 6. JSON is saved to dog.json using a file write operation.
 7. The saved file is opened and printed to verify the output.
+   
 -----------------------------
 ## Example Output
 Sample log output looks like:
@@ -68,6 +72,7 @@ INFO - Parsing JSON response...
 INFO - JSON parsed successfully.
 INFO - Dog image: https://images.dog.ceo/breeds/terrier-norfolk/n02094114_2436.jpg
 INFO - JSON saved successfully.
+
 -----------------------------
 ## Requirements
 Install dependencies:
