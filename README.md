@@ -72,6 +72,7 @@ INFO - Parsing JSON response...
 INFO - JSON parsed successfully.
 INFO - Dog image: https://images.dog.ceo/breeds/terrier-norfolk/n02094114_2436.jpg
 INFO - JSON saved successfully.
+{'message': 'https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_13071.jpg', 'status': 'success'}
 
 -----------------------------
 ## Requirements
